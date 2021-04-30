@@ -15,8 +15,8 @@ steps:
 - task: UseDotNet@2
   displayName: 'Use .NET Core SDK 2.1.2$(dotnetSdkVersion)'
   inputs:
-    version: '2.1.2'
-  #  version: '$(dotnetSdkVersion)'
+  #  version: '2.1.2'
+    version: '$(dotnetSdkVersion)'
 
 - task: Npm@1
   displayName: 'Run npm install'
